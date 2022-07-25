@@ -159,18 +159,34 @@ button:hover{
         }
 }
 
-@media (max-width: 800px){
+@media (max-width: 550px){
+    .left_container{
+        width: 90%;
+        height: 30%;
+    }
+    .right_container{
+        width: calc(90% - 50px);
+        height: calc(60% - 20px);
+        border-radius: 0px 0px 15px 15px;
+        padding: 10px 25px;
+    }
     .right_container h2{
         font-size: 0.75rem;
 
         }
         .right_container h1{
-        font-size: 2rem;
+        font-size: 1.75rem;
         }
         .right_container p{
-        font-size: 1.10rem;
-        line-height: 30px;
+        font-size: 0.75rem;
+        line-height: 20px;
         }
+        .button{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding: 0px 0px;
+            }
 }
 
 
