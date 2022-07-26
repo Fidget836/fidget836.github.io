@@ -5,44 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
 
-    <title>Frontend Mentor | Product preview card component</title>
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <main>
-      <div class="left_container">
-        <img src="image-product-desktop.jpg" id="img1" alt="" />
-        <img src="image-product-mobile.jpg" id="img2" alt="" />
+    <section id="firstSection">
+      <h1 id="firstLine">Reliable, efficient delivery</h1>
+      <h1>Powered by Technology</h1>
+      <p>
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+    </section>
+    <section id="secondeSection">
+      <div class="leftBox">
+        <p></p>
+        <h2>Supervisor</h2>
+        <p>Monitors activity to identify project roadblocks</p>
+        <img src="icon-supervisor.svg" alt="Supervisor" />
       </div>
-      <div class="right_container">
-        <h2>PERFUME</h2>
-        <h1>
-          Gabrielle<br />
-          Essence Eau De Parfum
-        </h1>
+      <div class="topBox">
+        <h2>Team Builder</h2>
         <p>
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
+          Scans our talent network to create the optimal team for your project
         </p>
-        <div class="price">
-          <p id="reduc">$149.99</p>
-          <p id="promo">$169.99</p>
-        </div>
-        <div class="button">
-          <button>
-            <img src="./images/icon-cart.svg" alt="" />
-            Add to Cart
-          </button>
-        </div>
+        <img src="icon-team-builder.svg" alt="Builder" />
       </div>
-    </main>
+      <div class="bottomBox">
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <img src="icon-karma.svg" alt="Karma" />
+      </div>
+      <div class="rightBox">
+        <h2>Calculator</h2>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <img src="icon-calculator.svg" alt="Calculator" />
+      </div>
+    </section>
   </body>
 </html>
